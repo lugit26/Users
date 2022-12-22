@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+h2{
+    text-align: center;
+    color:cornflowerblue;
+}
+
+.contenedor{
+width: 80%;
+height: calc(100vh - 100px);
+display: flex;
+justify-content: center;
+}
+
+.contenedor .div-formulario {
+width: 40%;;
+height:350px;
+margin: 15px 15px;
+background-color: rgb(231, 228, 248);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+}
+
+.contenedor .div-formulario form {
+    width: 40%;
+    height:40%;
+    background-color: rgb(231, 228, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+    .contenedor .div-formulario h2{
+        margin-top: 5px;
+        font-weight: 10px;
+        text-align: center;
+        color:cornflowerblue;
+    }
+
+    .contenedor .div-formulario form input,
+    .contenedor .div-formulario form button{
+        width: 170%;
+        padding: 5px 5px;
+        margin: 10px 10px;
+    }
+    
+
+
+.image-container {
+    display: flex;
+    align-content: center;
+}
+
+.image-container img{
+    width: 100px;
+    align-content: center;
+}
+
+/* LISTADO*/ 
+.contenedor .div-listado{
+    width:120%;
+    height:80%;
+    margin: 5px;
+    background-color: rgb(240, 190, 208);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding:30px;
+    border-radius: 10px;
+    
+    }
+
+.contenedor .div-listado .div-empleados{
+    width:100%;
+    height:80%;
+    background-color:rgb(240, 190, 208);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding:100px;
+    
+    }
+
+    .contenedor .div-listado .div-empleados p {
+       
+        background-color:rgb(240, 190, 208);
+        margin: 10px;
+     
+        
+        }
+
+
+    hr{
+        width:70%;
+        height:60%;
+    }
+
+    
+    .btn{
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 12px 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 15px;
+    }
+
+
+  .btn-Editar{
+    background-color: white; 
+    color: rgba(31, 124, 12, 0.521); 
+    border: 2px solid  #156b16;
+  }  
+  .btn-Editar:hover {
+    background-color: #156b16;
+    color: white;
+  }
+
+ .btn-Eliminar{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #e7176e;
+  }  
+  .btn-Eliminar:hover {
+    background-color: #e7176e;
+    color: white;
+  }
